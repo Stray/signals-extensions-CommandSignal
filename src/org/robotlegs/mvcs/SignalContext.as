@@ -7,7 +7,8 @@ package org.robotlegs.mvcs
 
     public class SignalContext extends Context implements ISignalContext
     {
-        protected var _signalCommandMap:ISignalCommandMap;
+        
+		protected var _signalCommandMap:ISignalCommandMap;
 
 		public function SignalContext(contextView:DisplayObjectContainer = null, autoStartup:Boolean = true)
 		{
